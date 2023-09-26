@@ -1,0 +1,23 @@
+{
+    "name": "ledc/env",
+    "description": "支持Env",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ledc\\Env\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "david",
+            "email": "367013672@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    }
+}
